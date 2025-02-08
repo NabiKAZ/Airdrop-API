@@ -4,6 +4,7 @@ Unofficial API for retrieving airdrop games in JSON format. including details li
 ## Supported Airdrops  
 This API supports the following airdrops:
 - **[Hamster Kombat](https://t.me/Hamster_kombat_bot/start?startapp=kentId101554083)**: Daily cards and Morse code
+- **[TapSwap](https://t.me/tapswap_bot?start=r_101554083)**: Cinema codes
 
 More airdrops will be added as the project expands.
 
