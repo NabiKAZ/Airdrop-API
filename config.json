@@ -1,9 +1,11 @@
 {
-    "dailyCards": [
-        "bitcoin_pizza_day",
-        "money_20_20",
-        "nft_metaverse"
-    ],
-    "morseCode": "WITHDRAW",
-    "updated": "1725383427"
+    "HamsterKombat": {
+        "dailyCards": [
+            "bitcoin_pizza_day",
+            "money_20_20",
+            "nft_metaverse"
+        ],
+        "morseCode": "WITHDRAW",
+        "updated": "1725383427"
+    }
 }

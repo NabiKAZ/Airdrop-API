@@ -1,10 +1,16 @@
 ## About
-Unofficial API of [Hamster Kombat](https://t.me/Hamster_kombat_bot/start?startapp=kentId101554083) telegram game to get daily cards and Morse and ...
+Unofficial API for retrieving airdrop games in JSON format. including details like daily bonuses, rewards, secret codes, and more.
+
+## Supported Airdrops  
+This API supports the following airdrops:
+- **[Hamster Kombat](https://t.me/Hamster_kombat_bot/start?startapp=kentId101554083)**: Daily cards and Morse code
+
+More airdrops will be added as the project expands.
 
 ## Usage
 This fixed address contains the required data that you can read and use in your code:
 
-[https://nabikaz.github.io/HamsterKombat-API/config.json](https://nabikaz.github.io/HamsterKombat-API/config.json)
+[https://nabikaz.github.io/Airdrop-API/config.json](https://nabikaz.github.io/Airdrop-API/config.json)
 
 ## Sample codes
 
@@ -12,7 +18,7 @@ python:
 ```python
 import requests
 
-url = "https://nabikaz.github.io/HamsterKombat-API/config.json"
+url = "https://nabikaz.github.io/Airdrop-API/config.json"
 response = requests.get(url)
 data = response.json()
 
@@ -23,7 +29,7 @@ nodejs:
 ```js
 import fetch from 'node-fetch';
 
-const url = 'https://nabikaz.github.io/HamsterKombat-API/config.json';
+const url = 'https://nabikaz.github.io/Airdrop-API/config.json';
 
 fetch(url)
     .then(response => response.json())
@@ -38,7 +44,7 @@ fetch(url)
 php:
 ```php
 <?php
-$url = 'https://nabikaz.github.io/HamsterKombat-API/config.json';
+$url = 'https://nabikaz.github.io/Airdrop-API/config.json';
 $json = file_get_contents($url);
 $data = json_decode($json, true);
 
@@ -57,7 +63,7 @@ import (
 )
 
 func main() {
-	url := "https://nabikaz.github.io/HamsterKombat-API/config.json"
+	url := "https://nabikaz.github.io/Airdrop-API/config.json"
 
 	resp, err := http.Get(url)
 	if err != nil {
@@ -90,4 +96,5 @@ Nothing! Just give a star on the GitHub page, we will be happy. (:
 
 ## Donation
 If this project was useful for you and you are willing, you can make me happy by giving a Star at the top of this GitHub page. Also this is my wallet address for Donate: \
-USDT (TRC20): `TEHjxGqu5Y2ExKBWzArBJEmrtzz3mgV5Hb`
+- USDT (TRC20): `TEHjxGqu5Y2ExKBWzArBJEmrtzz3mgV5Hb`
+- TON: `UQAzK0qhttfz1kte3auTXGqVeRul0SyFaCZORFyV1WmYlZQj`
